@@ -1,0 +1,223 @@
+body {
+    max-width: 500px;
+    margin: auto;
+    background-image: radial-gradient(rgb(239, 230, 208),rgb(195, 188, 147));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header {
+    text-align: center;
+    font-size: 35px;
+    color: #3e3d43;
+    text-shadow: 1px 1px 2px #575757;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.header2 {
+    text-align: center;
+    font-size: 25px;
+    color: #3e3d43;
+    text-shadow: 1px 1px 2px #575757;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.error {
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #af3939;
+    text-shadow: 1px 1px 2px #959595;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    transition: opacity 1s;
+}
+.loginFail {
+    opacity: 0;
+}
+.registerFail {
+    opacity: 0;
+}
+
+.edit {
+    margin-right: 4px;
+}
+
+.input {
+    border: none;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 1px 1px 4px #6a6a6a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.nameInput {
+    width: 250px;
+}
+.priceInput {
+    width: 50px;
+}
+.amountInput {
+    width: 25px;
+}
+
+.firstRegis {
+    width: 250px;
+}
+.lastRegis {
+    width: 250px;
+}
+.emailRegis {
+    width: 250px;
+}
+.passRegis {
+    width: 250px;
+}
+
+.emailLogin {
+    width: 250px;
+}
+.passLogin {
+    width: 250px;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 1px 1px 4px #6a6a6a;
+    text-shadow: 1px 1px 1px #d3d3d3;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #d3cdc6;
+}
+.my-button {
+    width: 70px;
+}
+.login-button {
+    margin-top: 10px;
+    width: 100px;
+}
+.createAcct-button {
+    width: 150px;
+    margin-top: 20px;
+}
+.register-button {
+    width: 100px;
+    margin-top: 10px;
+}
+.loginReturn-button {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.mark-button {
+    width: 200px;
+}
+
+.labels {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3e3d43;
+    text-shadow: 1px 1px 1px #c6c6c6;
+    padding: 0;
+    margin-right: 5px;
+    margin-top: 40px;
+    height: 25px;
+    border-bottom: 3px solid #6a6a6a
+}
+
+.nameLabel {
+    width: 70%;
+    display: inline-block;
+}
+.priceLabel {
+    width: 15%;
+    display: inline-block;
+}
+.amountLabel {
+    width: 10%;
+    display: inline-block;
+}
+
+.list {
+    margin-top: 10px;
+    animation: fadeIn 1s;
+    width: 100%;
+}
+
+.interact {
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.item {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3e3d43;
+    text-shadow: 1px 1px 1px #c6c6c6;
+    outline: none;
+    word-wrap: break-word;
+    border: none;
+    display: inline-block;
+    margin-right: 5px;
+    box-shadow: 1px 1px 4px #6a6a6a;
+    margin-top: 0px;
+    line-height: 30px;
+    transition: background-color 0.3s;
+}
+
+.authenticate {
+    display: none; /*inline*/
+}
+
+.resources {
+    display: none; /*inline*/
+    animation: fadeIn2 1s;
+}
+
+.login {
+    display: none; /*inline*/
+    animation: fadeIn2 1s;
+}
+
+.register {
+    display: none; /*inline*/
+    animation: fadeIn2 1s;
+}
+
+.itemName {
+    width: 70%;
+    cursor: pointer;
+}
+.itemName:hover {
+    background-color: #d3cdc6;
+}
+.itemPrice {
+    width: 15%;
+}
+.itemAmount {
+    width: 10%;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; margin-left: 50px; }
+    100% { opacity: 1; margin-left: 0px; }
+}
+
+@keyframes fadeIn2 {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}

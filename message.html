@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Shopping List</title>
+    </head>
+    <link href="style.css" rel="stylesheet"/>
+    <body>
+        <div class = "authenticate">
+            <div class = "login">
+                <h1 class = "header2">Login to an Existing Account</h1>
+                <div>
+                    <input type = "text" class = "input emailLogin" placeholder="Email">
+                </div>
+                <div>
+                    <input type = "text" class = "input passLogin" placeholder="Password">
+                </div>
+                <div>
+                    <button class = "button login-button">Login</button>
+                </div>
+                <div>
+                    <button class = "button createAcct-button">Create an Account</button>
+                </div>
+                <div>
+                    <h1 class = "error loginFail">Invalid email or password</h1>
+                </div>
+            </div>
+            <div class = "register">
+                <h1 class = "header2">Register an Account</h1>
+                <div>
+                    <input type = "text" class = "input firstRegis" placeholder="First Name">
+                </div>
+                <div>
+                    <input type = "text" class = "input lastRegis" placeholder="Last Name">
+                </div>
+                <div>
+                    <input type = "text" class = "input emailRegis" placeholder="Email">
+                </div>
+                <div>
+                    <input type = "text" class = "input passRegis" placeholder="Password">
+                </div>
+                <div>
+                    <button class = "button register-button">Register</button>
+                </div>
+                <div>
+                    <button class = "button loginReturn-button">Return to Login</button>
+                </div>
+                <div>
+                    <h1 class = "error registerFail">A user with that email already exists</h1>
+                </div>
+            </div>
+        </div>
+        <div class = "resources">
+            <h1 id = "header">Shopping List</h1>
+            <input type = "text" class = "input nameInput" placeholder="Item Name">
+            <input type = "text" class = "input priceInput" placeholder="Cost">
+            <input type = "text" class = "input amountInput" placeholder="#">
+            <button class = "button my-button">Enter</button>
+            <div class = "labels">
+                <div class = "nameLabel">Name</div> 
+                <div class = "priceLabel">Cost</div> 
+                <div class = "amountLabel">#</div>
+            </div>
+            <div class = "list"></div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
